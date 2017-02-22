@@ -3,13 +3,15 @@
 
 ## 开发日志
 
->2017.2.13
+>2017.2.21
 
 ### 首页demo
 
+<<<<<<< HEAD
 vs3.0,不能再多了。
+=======
+vs3.0版本，发誓这是最终版了。
+>>>>>>> origin/master
 
 ### Dengju Deng
-
-   [联和金融]: <http://www.dengjudeng.xyz/index.html>
 
