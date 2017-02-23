@@ -188,41 +188,47 @@ section{
 
 /*微信二维码*/
 .box-right .box-weixin{
-	position: relative;
-	display: inline-block;
-	margin: 10px auto;
+
 }
 
 .box-right .box-weixin .wixin-abs{
+	display: inline-block;
+	float: left;
 	width: 300px;
-	height: 300px;
+}
+
+.box-right .box-weixin .wixin-abs span{
+	display: block;
+	width: 200px;
+	height: 200px;
 	background-image: url("../img/weixin-abs.png");
 	background-repeat: no-repeat;
 	background-size: cover;
+	margin: 0 auto;
 }
 
 .box-right .box-weixin .wixin-fa{
-	width: 300px;
-	height: 300px;
+	display: inline-block;
+	float: left;
+    width: 300px;
+}
+
+.box-right .box-weixin .wixin-fa span{
+	display: block;
+	width: 200px;
+	height: 200px;
 	background-image: url("../img/weixin-fa.png");
 	background-repeat: no-repeat;
 	background-size: cover;
+	margin: 0 auto;
 }
 
 .box-right .box-weixin .wixin-mask{
-	width: 260px;
-	height: 260px;
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    -webkit-transition: all .4s ease-in;
-    transition: all .4s ease-in;
-    color: rgba(255,255,255,0);
-}
-
-.box-right .box-weixin:hover .wixin-mask{
-	background-color: rgba(0,0,0,0.7);
-	color: rgba(255,255,255,1); 
+	position: relative;
+	display: inline-block;
+	float: left;
+	width: 300px;
+	padding-top: 40px;
 }
 
 .box-right .box-weixin .wixin-mask a{	
@@ -234,35 +240,34 @@ section{
     height: 36px;
     margin: 20px auto;
     border-radius: 10px;
-    -webkit-transition: all .4s ease-in;
-    transition: all .4s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
     border: 1px #fff solid;  
 }
 
 .box-right .box-weixin .wixin-mask .left{
-	border-color: rgba(255,153,0,0);
-    color: rgba(255,153,0,0);
+	border-color: rgba(255,153,0,1);
+    color: rgba(255,153,0,1);
 }	
 
-.box-right .box-weixin:hover .wixin-mask .left{
-	border-color: rgba(255,153,0,1);
-	color: rgba(255,153,0,1);
-}
 
 .box-right .box-weixin .wixin-mask .right{
-	border-color: rgba(70,195,219,0);
-    color: rgba(70,195,219,0);
+	border-color: rgba(70,195,219,1);
+    color: rgba(70,195,219,1);
 }	
 
-.box-right .box-weixin:hover .wixin-mask .right{
-	border-color: rgba(70,195,219,1);
-	color: rgba(70,195,219,1);
+.box-right .box-weixin .wixin-mask .left:hover{
+    -webkit-box-shadow:0 0 20px rgba(255,153,0, .2);
+	-moz-box-shadow:0 0 20px rgba(255,153,0, .2);  
+    box-shadow:0 0 20px rgba(255,153,0, .2);
+}
+
+.box-right .box-weixin .wixin-mask .right:hover{
+    -webkit-box-shadow:0 0 20px rgba(70,195,219, .2);
+	-moz-box-shadow:0 0 20px rgba(70,195,219, .2);  
+    box-shadow:0 0 20px rgba(70,195,219, .2);
 }
 
 .box-right .box-weixin .wixin-mask p{
 	text-align: center;
-}
-
-.box-right .box-weixin .wixin-mask p:first-child{
-	padding-top: 70px;
 }
