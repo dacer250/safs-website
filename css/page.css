@@ -242,30 +242,15 @@ section{
     border-radius: 10px;
     -webkit-transition: all .2s ease-in;
     transition: all .2s ease-in;
-    border: 1px #fff solid;  
+    border: 1px #fff solid; 
+    border-color: rgba(255,153,0,1);
+    color: rgba(255,153,0,1); 
 }
 
-.box-right .box-weixin .wixin-mask .left{
-	border-color: rgba(255,153,0,1);
-    color: rgba(255,153,0,1);
-}	
-
-
-.box-right .box-weixin .wixin-mask .right{
-	border-color: rgba(70,195,219,1);
-    color: rgba(70,195,219,1);
-}	
-
-.box-right .box-weixin .wixin-mask .left:hover{
+.box-right .box-weixin .wixin-mask a:hover{
     -webkit-box-shadow:0 0 20px rgba(255,153,0, .2);
 	-moz-box-shadow:0 0 20px rgba(255,153,0, .2);  
     box-shadow:0 0 20px rgba(255,153,0, .2);
-}
-
-.box-right .box-weixin .wixin-mask .right:hover{
-    -webkit-box-shadow:0 0 20px rgba(70,195,219, .2);
-	-moz-box-shadow:0 0 20px rgba(70,195,219, .2);  
-    box-shadow:0 0 20px rgba(70,195,219, .2);
 }
 
 .box-right .box-weixin .wixin-mask p{
