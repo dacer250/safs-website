@@ -254,9 +254,10 @@ section{
 }
 
 .box-right .box-weixin .wixin-info p{
-	text-align: center;
+	text-align: left;
+	padding-left: 40px;	
 }
- 
+
 .box-right .box-right-mid .box-contact{
 	display: inline-block;
 	float: left;
