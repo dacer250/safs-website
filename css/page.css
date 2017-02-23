@@ -223,15 +223,15 @@ section{
 	margin: 0 auto;
 }
 
-.box-right .box-weixin .wixin-mask{
+.box-right .box-weixin .wixin-info{
 	position: relative;
 	display: inline-block;
 	float: left;
 	width: 300px;
-	padding-top: 40px;
+	padding-top: 10px;
 }
 
-.box-right .box-weixin .wixin-mask a{	
+.box-right .box-weixin .wixin-info a{	
 	text-decoration: none;
     display: block;
     text-align: center;
@@ -247,12 +247,12 @@ section{
     color: rgba(255,153,0,1); 
 }
 
-.box-right .box-weixin .wixin-mask a:hover{
-    -webkit-box-shadow:0 0 20px rgba(255,153,0, .2);
-	-moz-box-shadow:0 0 20px rgba(255,153,0, .2);  
-    box-shadow:0 0 20px rgba(255,153,0, .2);
+.box-right .box-weixin .wixin-info a:hover{
+    -webkit-box-shadow:0 0 20px rgba(255,153,0, .3);
+	-moz-box-shadow:0 0 20px rgba(255,153,0, .3);  
+    box-shadow:0 0 20px rgba(255,153,0, .3);
 }
 
-.box-right .box-weixin .wixin-mask p{
+.box-right .box-weixin .wixin-info p{
 	text-align: center;
 }
