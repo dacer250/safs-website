@@ -199,8 +199,8 @@ section{
 
 .box-right .box-weixin .wixin-abs span{
 	display: block;
-	width: 200px;
-	height: 200px;
+	width: 160px;
+	height: 160px;
 	background-image: url("../img/weixin-abs.png");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -215,8 +215,8 @@ section{
 
 .box-right .box-weixin .wixin-fa span{
 	display: block;
-	width: 200px;
-	height: 200px;
+	width: 160px;
+	height: 160px;
 	background-image: url("../img/weixin-fa.png");
 	background-repeat: no-repeat;
 	background-size: cover;
