@@ -256,3 +256,20 @@ section{
 .box-right .box-weixin .wixin-info p{
 	text-align: center;
 }
+ 
+.box-right .box-right-mid .box-contact{
+	display: inline-block;
+	float: left;
+	padding-right: 40px;
+}
+
+.box-right .box-right-mid .box-contact span{
+	display: block;
+	width: 160px;
+	height: 160px;
+	background-image: url("../img/weixin-fa.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0 auto;
+}
+

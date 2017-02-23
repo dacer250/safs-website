@@ -264,12 +264,6 @@ header .header-container .nav-box .nav-mobile-menu span{
 
 /*响应式媒体查询处理*/
 @media screen  and (max-width: 1200px) {
-  header .header-container .nav-box .nav-mid .navbar-nav li:last-child{
-    display: none;
-  }
-  header .header-container .nav-box .line-item{
-    display: none;
-  }
   #feature-last{
     display: none;
   }
@@ -283,9 +277,6 @@ header .header-container .nav-box .nav-mobile-menu span{
 
 @media  screen  and (max-width: 970px) {
   header .header-container .nav-box #lang{
-    display: none;
-  }
-  footer ul:last-child{
     display: none;
   }
 }
@@ -327,9 +318,6 @@ header .header-container .nav-box .nav-mobile-menu span{
 @media  screen  and (max-width: 500px) {
   .banner img{
     height: 200px !important;
-  }
-  .footer-laber ul:last-child{
-    display: none !important;
   }
 }
 
