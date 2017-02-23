@@ -187,8 +187,8 @@ section{
 }
 
 /*微信二维码*/
-.box-right .box-weixin{
-
+.box-right .box-weixin p{
+    text-align: center;
 }
 
 .box-right .box-weixin .wixin-abs{
@@ -228,7 +228,7 @@ section{
 	display: inline-block;
 	float: left;
 	width: 300px;
-	padding-top: 10px;
+	padding-top: 40px;
 }
 
 .box-right .box-weixin .wixin-info a{	
