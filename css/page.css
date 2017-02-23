@@ -163,7 +163,6 @@ section{
 .box-right .box-right-mid{
 	width: 100%;
 	padding: 40px;
-	/*height: 500px;*/
 	border-radius: 10px;
 	background-color: #fff;
 	-webkit-box-shadow:0 0 10px rgba(204,204,204, .5); 
@@ -181,57 +180,89 @@ section{
 .box-right .box-right-mid h4{
 	color: #ff9900;
 }
-/*子页内容配图*/
-.box-right .box-right-mid .box-img{
-    width: 100%;
-    height: 300px;
-    overflow: hidden;
-}
 
 .box-right .box-right-mid ul{
     margin: 0px 10px;
     padding: 0px 10px;
 }
 
-.box-right .box-right-mid .box-img span{
-	display: block;
-	width: 100%;
-	height: 300px;	
+/*微信二维码*/
+.box-right .box-weixin{
+	position: relative;
+	display: inline-block;
+	margin: 10px auto;
+}
+
+.box-right .box-weixin .wixin-abs{
+	width: 300px;
+	height: 300px;
+	background-image: url("../img/weixin-abs.png");
+	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center;
-/*    transition: all 1.2s;*/
-}
-/* 图片拉近效果 */
-/*.box-right .box-right-mid .box-img span:hover{
-	cursor: pointer; 
-	transform: scale(1.2);
-}*/
-
-.box-right .box-right-mid .product-banner img{
-  width: 100%;
-  margin: 0 auto;
-}
-.box-right .box-right-mid .product-banner .c-left{
-  left: 0px;
-  right: auto;
-}
-.box-right .box-right-mid .product-banner .c-right{
-  left: auto;
-  right: 0px;
 }
 
-.box-right .box-right-mid .box-img .gywm{
-	background-image: url("../img/aboutus.jpg");
+.box-right .box-weixin .wixin-fa{
+	width: 300px;
+	height: 300px;
+	background-image: url("../img/weixin-fa.png");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-.box-right .box-right-mid .box-img .zyfz{
-	background-image: url("../img/development.jpg");
+.box-right .box-weixin .wixin-mask{
+	width: 260px;
+	height: 260px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    -webkit-transition: all .4s ease-in;
+    transition: all .4s ease-in;
+    color: rgba(255,255,255,0);
 }
 
-.box-right .box-right-mid .box-img .gswh{
-	background-image: url("../img/culture.jpg");
+.box-right .box-weixin:hover .wixin-mask{
+	background-color: rgba(0,0,0,0.7);
+	color: rgba(255,255,255,1); 
 }
 
-.box-right .box-right-mid .box-img .cpjs{
-	background-image: url("../img/product-1.png");
+.box-right .box-weixin .wixin-mask a{	
+	text-decoration: none;
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    width: 200px;
+    height: 36px;
+    margin: 20px auto;
+    border-radius: 10px;
+    -webkit-transition: all .4s ease-in;
+    transition: all .4s ease-in;
+    border: 1px #fff solid;  
+}
+
+.box-right .box-weixin .wixin-mask .left{
+	border-color: rgba(255,153,0,0);
+    color: rgba(255,153,0,0);
+}	
+
+.box-right .box-weixin:hover .wixin-mask .left{
+	border-color: rgba(255,153,0,1);
+	color: rgba(255,153,0,1);
+}
+
+.box-right .box-weixin .wixin-mask .right{
+	border-color: rgba(70,195,219,0);
+    color: rgba(70,195,219,0);
+}	
+
+.box-right .box-weixin:hover .wixin-mask .right{
+	border-color: rgba(70,195,219,1);
+	color: rgba(70,195,219,1);
+}
+
+.box-right .box-weixin .wixin-mask p{
+	text-align: center;
+}
+
+.box-right .box-weixin .wixin-mask p:first-child{
+	padding-top: 70px;
 }
