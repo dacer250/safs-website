@@ -116,19 +116,20 @@ section{
 	color: #fff;
     font-size: 16px;
     line-height: 40px;   
-    transition:All 0.4s ease-in-out;
+    /*transition:All 0.4s ease-in-out;
     -webkit-transition:All 0.4s ease-in-out;
     -moz-transition:All 0.4s ease-in-out;
-    -o-transition:All 0.4s ease-in-out;
+    -o-transition:All 0.4s ease-in-out;*/
 }
 
-.box-left li:hover{
+/*动画效果*/
+/*.box-left li:hover{
     transform:translateX(20px);
     -webkit-transform:translateX(20px);
     -moz-transform:translateX(20px);
     -o-transform:translateX(20px);
     -ms-transform:translateX(20px);
-}
+}*/
 
 .box-left li a{
 	color: #fff;

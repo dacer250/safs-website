@@ -60,6 +60,7 @@ body{
   cursor: pointer;
 }
 
+/*折角特效*/
 .feature-image:before {
   content: '';
   position: absolute;
@@ -87,18 +88,20 @@ body{
   background-color: #fff;
 }
 
-.feature-content:hover{
-  cursor: pointer;
-}
+/*上推特效*/
 
-.feature-content:hover .feature-image{
+/*.feature-content:hover{
+  cursor: pointer;
+}*/
+
+/*.feature-content:hover .feature-image{
   height: 160px;
   transform:translateY(-10px);
   -webkit-transform:translateY(-10px);
   -moz-transform:translateY(-10px);
   -o-transform:translateY(-10px);
   -ms-transform:translateY(-10px);
-}
+}*/
 
 .feature-text .feature-icon-project{
   display: inline-block;
