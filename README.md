@@ -1,14 +1,12 @@
-# SAFS_Homepage_demo
-
->上海联和金融信息服务有限公司官网
-
-## 开发日志
+# SAFS_Homepage 
 
 >2017.2.23
 
-![N|Solid](img/SAFS_Design/SAFS_homepage_a1_Shanghai.png)
+>上海联和金融信息服务有限公司官网
 
->官网发布版
+![N|Solid](img/SAFS_Design/SAFS_homepage_a1_Shanghai.png)
+![N|Solid](img/SAFS_Design/SAFS_homepage_a1_Newyork.png)
+![N|Solid](img/SAFS_Design/SAFS_homepage_a1_Tokyo.png)
 
 ### Dengju Deng
 
