@@ -13,7 +13,7 @@
     background-attachment: fixed;/*固定背景*/
     background-repeat: no-repeat; 
     background-size: cover;
-    background-position: center;
+    background-position: center ! important;
     overflow: hidden;/*溢出隐藏消除滚动条*/
 }
 
@@ -22,7 +22,7 @@
     background-attachment: fixed;/*固定背景*/
     background-repeat: no-repeat; 
     background-size: cover;
-    background-position: center;
+    background-position: center ! important;
     overflow: hidden;/*溢出隐藏消除滚动条*/
 }
 
@@ -31,7 +31,7 @@
     background-attachment: fixed;/*固定背景*/
     background-repeat: no-repeat; 
     background-size: cover;
-    background-position: center;
+    background-position: center ! important;
     overflow: hidden;/*溢出隐藏消除滚动条*/
 }
 
@@ -39,8 +39,8 @@
     background: #fff url(../img/banner-5.jpg);
     background-attachment: fixed;/*固定背景*/
     background-repeat: no-repeat; 
-    background-size: cover;
-    background-position: center;
+    background-size: 100% 100%;
+    background-position: center ! important; 
     overflow: hidden;/*溢出隐藏消除滚动条*/
 }
 /*子页banner*/
