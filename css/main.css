@@ -172,6 +172,10 @@ footer ul .footer-contact{
   color: #898989;
 }
 
+footer ul:last-child{
+  padding-top: 4px;
+}
+
 /*版权信息样式*/
 .copy{
     background-color: #fff;
