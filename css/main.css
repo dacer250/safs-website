@@ -323,6 +323,21 @@ header .header-container .nav-box .nav-mobile-menu span{
   .banner img{
     height: 200px !important;
   }
+  .main-wrapper-1{
+    background-image: url(../img/banner-1-m.png) ! important;
+  }
+  .main-wrapper-2{
+    background-image: url(../img/banner-2-m.png) ! important;
+  }
+  .main-wrapper-3{
+    background-image: url(../img/banner-3-m.png) ! important;
+  }
+  .main-wrapper-4{
+    background-image: url(../img/banner-4-m.png) ! important;
+  }
+  .main-wrapper-5{
+    background-image: url(../img/banner-5-m.png) ! important;
+  }
 }
 
 /*兼容iphone5以下小屏设备*/

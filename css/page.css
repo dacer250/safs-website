@@ -1,47 +1,29 @@
 /*子页样式*/
-.main-wrapper-1{
-    background: #fff url(../img/banner-1.jpg);
-    background-attachment: fixed;/*固定背景*/
+.main-wrapper{
+	background-attachment: fixed;/*固定背景*/
     background-repeat: no-repeat; 
-    background-size: cover ! important;
-    background-position: center ! important;
+    background-size: cover;
+    background-position: center;
     overflow: hidden;/*溢出隐藏消除滚动条*/
+}
+.main-wrapper-1{
+    background-image: url(../img/banner-1.jpg);   
 }
 
 .main-wrapper-2{
-    background: #fff url(../img/banner-2.jpg);
-    background-attachment: fixed;/*固定背景*/
-    background-repeat: no-repeat; 
-    background-size: cover ! important;
-    background-position: center ! important;
-    overflow: hidden;/*溢出隐藏消除滚动条*/
+    background-image: url(../img/banner-2.jpg);
 }
 
 .main-wrapper-3{
-    background: #fff url(../img/banner-3.jpg);
-    background-attachment: fixed;/*固定背景*/
-    background-repeat: no-repeat; 
-    background-size: cover ! important;
-    background-position: center ! important;
-    overflow: hidden;/*溢出隐藏消除滚动条*/
+    background-image: url(../img/banner-3.jpg);
 }
 
 .main-wrapper-4{
-    background: #fff url(../img/banner-4.jpg);
-    background-attachment: fixed;/*固定背景*/
-    background-repeat: no-repeat; 
-    background-size: cover ! important;
-    background-position: center ! important;
-    overflow: hidden;/*溢出隐藏消除滚动条*/
+    background-image: url(../img/banner-4.jpg);
 }
 
 .main-wrapper-5{
-    background: #fff url(../img/banner-5.jpg);
-    background-attachment: fixed;/*固定背景*/
-    background-repeat: no-repeat; 
-    background-size: cover ! important;
-    background-position: center ! important; 
-    overflow: hidden;/*溢出隐藏消除滚动条*/
+    background-image: url(../img/banner-5.jpg);
 }
 /*子页banner*/
 .advert{
