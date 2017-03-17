@@ -1,12 +1,10 @@
 /*子页样式*/
 .main-wrapper{
-	background-attachment: fixed;/*固定背景*/
-    background-repeat: no-repeat; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;/*溢出隐藏消除滚动条*/
+	background-attachment: fixed ! important;/*固定背景*/
+    background-repeat: no-repeat ! important; 
+    background-size: cover ! important;
+    background-position: center ! important;
+    overflow: hidden ! important;/*溢出隐藏消除滚动条*/
 }
 .main-wrapper-1{
     background-image: url(../img/banner-1.jpg);   
