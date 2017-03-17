@@ -5,7 +5,6 @@
     background-size: cover ! important;
     background-position: center ! important;
     overflow: hidden ! important;/*溢出隐藏消除滚动条*/
-    width: 100%;
 }
 .main-wrapper-1{
     background-image: url(../img/banner-1.jpg);   
@@ -27,7 +26,7 @@
     background-image: url(../img/banner-5.jpg);
 }
 
-.main-wrapper:before {
+/*.main-wrapper:before {
   content: ' ';
   position: fixed;
   z-index: -1;
@@ -37,7 +36,7 @@
   left: 0;
   background: url(../img/banner-2.jpg) center 0 no-repeat;
   background-size: cover;
-}
+}*/
 /*子页banner*/
 .advert{
 	height: 400px;
