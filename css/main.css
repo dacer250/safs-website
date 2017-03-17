@@ -254,6 +254,9 @@ header .header-container .nav-box .nav-mobile-menu span{
   background-color: #930000;
 }
 
+.sidebar ul li .active{
+  color: #ff9900;
+}
 /*关灯遮罩*/
 .mask{
   position: fixed;
