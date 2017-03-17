@@ -5,6 +5,7 @@
     background-size: cover ! important;
     background-position: center ! important;
     overflow: hidden ! important;/*溢出隐藏消除滚动条*/
+    width: 100%;
 }
 .main-wrapper-1{
     background-image: url(../img/banner-1.jpg);   
