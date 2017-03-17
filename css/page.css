@@ -2,6 +2,8 @@
 .main-wrapper{
 	background-attachment: fixed;/*固定背景*/
     background-repeat: no-repeat; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
     background-size: cover;
     background-position: center;
     overflow: hidden;/*溢出隐藏消除滚动条*/
