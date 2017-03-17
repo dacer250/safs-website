@@ -7,7 +7,6 @@
     overflow: hidden ! important;/*溢出隐藏消除滚动条*/
     width: 100%;
     height: 400px;
-    z-index: -1;
 }
 .main-wrapper-1{
     background-image: url(../img/banner-1.jpg);   
@@ -29,22 +28,11 @@
     background-image: url(../img/banner-5.jpg);
 }
 
-/*.main-wrapper:before {
-  content: ' ';
-  position: fixed;
-  z-index: -1;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: url(../img/banner-2.jpg) center 0 no-repeat;
-  background-size: cover;
-}*/
 /*子页banner*/
 .advert{
+	width: 100%;
 	height: 400px;
 	background-color: rgba(0,0,0,0.2);
-	border-bottom: 2px #c7161e solid;
 }
 
 .advert h1{
@@ -69,7 +57,7 @@ section{
 	background-size: cover;
 	width: 100%;
 	height: 100%;
-	/*background-color: #f7f7f7;*/
+	border-top: 2px #c7161e solid;
 }
 .box{
 	width: 80%;
